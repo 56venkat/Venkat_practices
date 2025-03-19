@@ -1,0 +1,19 @@
+INFO:root:A New request came
+INFO:root:A New request came
+INFO:root:Request processing completed
+INFO:root:A New request came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\Madhav\PycharmProjects\SudhaProjects\main.py", line 7, in <module>
+    print(int(x)/int(y))
+          ~~~~~~^~~~~~~
+ZeroDivisionError: division by zero
+INFO:root:Request processing completed
+INFO:root:A New request came
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "C:\Users\Madhav\PycharmProjects\SudhaProjects\main.py", line 7, in <module>
+    print(int(x)/int(y))
+                 ^^^^^^
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:Request processing completed
